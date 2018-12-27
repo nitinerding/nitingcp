@@ -1,6 +1,6 @@
 FROM golang
-WORKDIR /go/src/nitin
-ADD . /go/src/nitin
-RUN go install nitin
-ENV PORT 8080
-CMD ["/go/bin/nitin"]
+WORKDIR /go/src/dev1
+ADD . /go/src/dev1
+RUN go install dev1
+ENV PORT 8081
+CMD ["/go/bin/dev1"]
