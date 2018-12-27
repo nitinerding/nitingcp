@@ -1,5 +1,7 @@
-cluster_name = "sredevcluster"
-zone_name = "europe-west1"
-gcp_cluster_count = 3
-linux_admin_username = "sredevuser"
+cluster_name = "ournewworld"
+
+gcp_cluster_count = 1
+
+linux_admin_username = "frankie"
+
 linux_admin_password = "supersecretpassword"
