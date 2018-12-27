@@ -9,7 +9,7 @@ import (
 func main() {
 	host, _ := os.Hostname()
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello Nitin Rana, you've requested: %s\n", host)
+		fmt.Fprintf(w, "Hello Nitin Rana This is version 2, you've requested: %s\n", host)
 	})
 
 	http.ListenAndServe(":80", nil)
