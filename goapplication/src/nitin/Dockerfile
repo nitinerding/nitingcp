@@ -1,4 +1,5 @@
 FROM golang
 WORKDIR /go/src/nitin
 ADD . /go/src/nitin
-CMD ["go", "run", "main.go"]
+RUN go install nitin
+CMD ["/go/bin/nitin"]
