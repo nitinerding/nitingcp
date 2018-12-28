@@ -1,6 +1,6 @@
 FROM httpd
-WORKDIR /lab/httpdfile
-#ADD . /go/src/nitin
+WORKDIR /usr/local/apache2/htdocs/
+ADD . /usr/local/apache2/htdocs/
 #RUN go install nitin
 #CMD [""]
 
